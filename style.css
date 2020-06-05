@@ -1,0 +1,156 @@
+
+/* .navbar-brand{
+    color: #FF80AB !important;
+    font-size: 20px !important;
+}
+.nav-link{
+    color: #FF80AB !important;
+}
+.collapse{
+text-align: center !important;
+}
+ */
+ .btn-primary{
+    width: 100%;
+    color:   white !important;
+    background-color:  tomato  !important;
+
+}
+.card{ 
+    width: 230px;
+    height: 460px;
+    background-color:#212121 !important ;
+    color: white !important;
+    margin-top: 80px;
+    margin-right: 5px;  
+}
+/* .navbar{
+    height: 50px;
+}
+.navbar-nav{
+    margin-left: 100px;
+}
+.nav-item{
+    margin-left: 15px;
+} */
+.fa-user-circle,.fa-shopping-cart{
+    margin-right: 20px;
+    font-size: 30px !important;
+    color: tomato !important;
+    
+}
+
+
+.maincard{
+margin-left: 70px;
+    display: flex;
+flex-wrap: wrap;
+}
+.card1,.card2,.card3{
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    flex-direction: column;
+    align-items: center;
+    color: tomato !important;
+    
+margin-right: 20px;
+
+    margin-top: 20px;
+    width: 30%;
+    height: 120px;
+    background-color: #263238
+    ;
+    box-shadow: 2px 4px 6px grey;
+}
+.fa-truck,.fa-thumbs-up,.fa-clock-o{
+    font-size: 45px !important;
+    color: tomato !important;
+
+    
+}
+body{
+    background-color: 
+    #ECEFF1 !important;
+}
+@media screen and (max-width:600px){
+    .card1,.card2,.card3{
+        width: 100%;
+    }  
+}
+@media screen and (max-width:600px){
+    .container,.card{
+        width: 100%;
+    }
+}
+
+/* .navbar{
+    height: 50px;
+}
+.navbar-brand,.nav-link{
+    color: darkolivegreen !important;
+} */
+.footer1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 50px;
+background-color:
+#263238;
+
+    /* background-image: url(../images/images/1\ \(38\).jpeg); */
+    color: tomato !important;
+  
+}
+.product1{
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+color:#263238;
+}
+
+.nav-link{
+    color: white !important;
+}
+.navbar-brand{
+    color: tomato !important;
+}
+.proseuper{
+    height: 800px;
+    overflow: scroll;
+}
+.contact2{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.contact1,.about1{
+    display: flex;
+flex-wrap: wrap;
+justify-content: center;
+    color: #263238;
+
+
+}
+.form1{
+    display: flex;
+
+}
+#uper{
+    position: fixed;
+    bottom: 50px;
+    right: 40px;
+}
+.container{
+    background-color:
+    #4E342E
+    ;
+    box-shadow: 4px 4px 4px black;
+    height: 500px;
+    overflow: scroll;
+}
+.top1{
+    position: fixed;
+    bottom: 30px;
+    right: 50px;
+}

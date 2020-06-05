@@ -1,0 +1,108 @@
+form{
+    padding: 10px;
+    margin: 10px auto;
+    width: 500px;
+
+
+    background-color: #37474F;
+    border-radius: 10px;
+}
+input{
+    padding: 10px;
+    margin: 5px;
+    font-size: 1em;
+
+}
+input:focus{
+    border-color: royalblue;
+
+}
+button{
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+    background-color: #263238
+    ;
+    color: snow;
+    cursor: pointer;
+    width: 250px;
+}
+#message{
+    background-image: url(images/message1.jpg);
+   background-size: 35px;
+
+
+padding: 10px 10px 10px 40px;
+    background-repeat: no-repeat;
+ 
+
+}
+input.name{
+    background-image: url(images/name1.webp);
+   background-size: 35px;
+
+
+padding: 10px 10px 10px 40px;
+    background-repeat: no-repeat;
+ 
+
+}
+input.email{
+    background-image: url(images/email4.png);
+   background-size: 35px;
+
+
+padding: 10px 10px 10px 40px;
+    background-repeat: no-repeat;
+ 
+
+}
+fieldset{
+border-radius: 5px;
+border-color: 1px salmon grey;
+width: 600px;
+margin: 10px auto;
+
+background-color: #263238
+;
+}
+legend{
+    padding: 10px;
+    border-color: 1px solid green;
+    background-color: lightblue;
+    font-weight: bold;
+    border-radius: 5px;
+
+}
+.center{
+   
+    text-align: center;
+
+}
+.contact1{
+    color: white;
+    text-align: center;
+}
+
+body{
+    background-image: url(images/map2.gif);
+    background-repeat: no-repeat;
+    background-color: black;
+    background-size: 100%;
+  
+}
+.contactpage{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.back3{
+
+}
+
+
+
+
+
+
