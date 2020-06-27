@@ -1,156 +1,134 @@
-
-/* .navbar-brand{
-    color: #FF80AB !important;
-    font-size: 20px !important;
-}
-.nav-link{
-    color: #FF80AB !important;
-}
-.collapse{
-text-align: center !important;
-}
- */
- .btn-primary{
-    width: 100%;
-    color:   white !important;
-    background-color:  tomato  !important;
-
-}
-.card{ 
-    width: 230px;
-    height: 460px;
-    background-color:#212121 !important ;
-    color: white !important;
-    margin-top: 80px;
-    margin-right: 5px;  
-}
-/* .navbar{
-    height: 50px;
-}
-.navbar-nav{
-    margin-left: 100px;
-}
-.nav-item{
-    margin-left: 15px;
-} */
-.fa-user-circle,.fa-shopping-cart{
-    margin-right: 20px;
-    font-size: 30px !important;
-    color: tomato !important;
-    
-}
-
-
-.maincard{
-margin-left: 70px;
-    display: flex;
-flex-wrap: wrap;
-}
-.card1,.card2,.card3{
-    display: flex;
-    margin-top: 10px;
-    margin-bottom: 30px;
-    flex-direction: column;
-    align-items: center;
-    color: tomato !important;
-    
-margin-right: 20px;
-
-    margin-top: 20px;
-    width: 30%;
-    height: 120px;
-    background-color: #263238
-    ;
-    box-shadow: 2px 4px 6px grey;
-}
-.fa-truck,.fa-thumbs-up,.fa-clock-o{
-    font-size: 45px !important;
-    color: tomato !important;
-
-    
-}
 body{
-    background-color: 
-    #ECEFF1 !important;
+    background-color:#263238;
 }
-@media screen and (max-width:600px){
-    .card1,.card2,.card3{
-        width: 100%;
-    }  
-}
-@media screen and (max-width:600px){
-    .container,.card{
-        width: 100%;
-    }
-}
-
-/* .navbar{
-    height: 50px;
-}
-.navbar-brand,.nav-link{
-    color: darkolivegreen !important;
-} */
-.footer1{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    margin-top: 50px;
-background-color:
-#263238;
-
-    /* background-image: url(../images/images/1\ \(38\).jpeg); */
-    color: tomato !important;
-  
-}
-.product1{
-display: flex;
-flex-wrap: wrap;
-justify-content: center;
-color:#263238;
-}
-
-.nav-link{
-    color: white !important;
-}
-.navbar-brand{
-    color: tomato !important;
-}
-.proseuper{
-    height: 800px;
-    overflow: scroll;
-}
-.contact2{
-    display: flex;
-    flex-wrap: wrap;
-
-}
-.contact1,.about1{
-    display: flex;
-flex-wrap: wrap;
-justify-content: center;
-    color: #263238;
-
-
-}
-.form1{
-    display: flex;
-
-}
-#uper{
-    position: fixed;
-    bottom: 50px;
-    right: 40px;
-}
-.container{
-    background-color:
-    #4E342E
-    ;
-    box-shadow: 4px 4px 4px black;
+.main{
+    border: 2px solid black;
+    width: 430px;
     height: 500px;
-    overflow: scroll;
+
+    background-color:white;
+    margin: 0 auto;
 }
-.top1{
-    position: fixed;
-    bottom: 30px;
-    right: 50px;
+.result{
+   margin-bottom: 40px;
+   width: 98%;
+   height: 70px;
+   background-color: #212121;
+   font-size: 35px;
+   font-weight: bolder;
+   color: white;
+
+}
+.result:hover{
+   background-color: white;
+   color: black;
+}
+.btn1,.btn2,.btn3,.btn,.btn5,.btn6,.btn7,.btn4,.btn5,.btn8,.btn9,.btn10,.btn11,.btn12,.btn13,.btn14,.btn15,.btn16{
+   width: 100px;
+   height: 70px;
+   margin: 2px 2px 2px 2px;
+   
+
+}
+.btn13,.btn14,.btn15,.btn16{
+   margin-bottom: 20px;
+ 
+}
+
+.btn1,.btn2,.btn3,.btn5,.btn6,.btn7,.btn9,.btn10,.btn11,.btn13{
+   background-color: white;
+   color: black;
+   font-size: 35px;
+   font-weight: bolder;
+   border-style: none;
+
+}
+.btn1:hover{
+   background-color:black;
+   color: white;
+}
+.btn2:hover{
+   background-color:black;
+   color: white;
+}
+
+.btn3:hover{
+   background-color:black;
+   color: white;
+}
+
+.btn5:hover{
+   background-color:black;
+   color: white;
+}
+
+.btn6:hover{
+   background-color:black;
+   color: white;
+}
+.btn7:hover{
+   background-color:black;
+   color: white;
+}
+.btn9:hover{
+   background-color:black;
+   color: white;
+}
+.btn10:hover{
+   background-color:black;
+   color: white;
+}
+.btn11:hover{
+   background-color:black;
+   color: white;
+}
+.btn13:hover{
+   background-color:black;
+   color: white;
+
+}
+.btn11:hover{
+   background-color:
+black;
+   color: white;
+}
+.btn13:hover{
+   background-color:black;
+   color: white;
+}
+.btn4,.btn8,.btn12,.btn14,.btn15,.btn16{
+   background-color: white;
+   font-size: 35px;
+   font-weight: bolder;
+   color: black;
+   border-style: none;
+   
+}
+.btn14{
+   background-color: 
+  white;
+}
+.btn14:hover{
+   background-color: #1B5E20;
+}
+
+.btn4:hover{
+   background-color: #EF6C00;
+}
+.btn8:hover{
+   background-color: #FFAB40;
+}
+.btn12:hover{
+   background-color: #82B1FF;
+}
+
+.btn15:hover{
+   background-color: 
+   #37474F;
+   color: white;
+}
+
+.btn16:hover{
+   background-color: navy;
+   color: white;
 }
